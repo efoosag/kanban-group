@@ -9,9 +9,11 @@ module.exports = {
   devServer: {
     static: './dist',
   },
+  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      title: 'Output management',
+      // template: './src/index.html',
     }),
   ],
   output: {
@@ -27,6 +29,14 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
     ],
   },
