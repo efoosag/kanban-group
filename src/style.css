@@ -157,9 +157,22 @@ body {
   margin: 0 5px;
   padding: 8px 10px;
   -webkit-box-reflect: below 0 linear-gradient(transparent, #0003);
-  transition: 0.5s;
+  transition: 3s;
   font-size: 13px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #1d2b3a;
+  transition: 1s;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: 0 0 10px rgba(225, 170, 6, 0.9);
+  background: rgba(225, 170, 6, 0.9);
+  border: 2px solid rgb(0, 0, 0, 0.7);
+  cursor: pointer;
 }
 
 .footer {
