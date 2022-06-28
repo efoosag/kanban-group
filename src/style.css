@@ -120,9 +120,14 @@ body {
 
 .rate {
   display: flex;
-  padding: 2px 10px;
+  padding: 0 10px;
   text-align: center;
-  justify-content: space-between;
+}
+
+.rate1 {
+  display: flex;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 .like_title {
@@ -193,7 +198,7 @@ body {
 .footer p {
   width: 94%;
   margin: 0 3%;
-  padding: 5px;
+  padding: 15px 5px;
   text-align: center;
   color: #fff;
   background-color: rgb(0, 0, 0, 0.7);
@@ -226,7 +231,6 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgb(0, 0, 0); */
   background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -274,12 +278,6 @@ body {
   font-size: 14px;
   text-align: start;
 }
-
-/* .cross {
-  position: absolute;
-  top: 25px;
-  right: 15px;
-} */
 
 .comments h3 {
   width: 100%;
@@ -393,7 +391,7 @@ body {
   }
 
   .work-section {
-    border: 1px solid red;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -415,5 +413,54 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #fff;
     padding-bottom: 15px;
+    transition: all 1s ease-out;
+  }
+
+  .work-box:hover {
+    box-shadow:
+    0 5px 12px rgba(225, 170, 6, 0.9),
+    0 5px 12px rgba(225, 170, 6, 0.9);
+    transition: all 2s ease-out;
+    cursor: pointer;
+    font-style: italic;
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: 0 5px;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, #0003);
+  }
+
+  .work-rating {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rate {
+    width: 50%;
+    height: 25px;
+    margin: 3px 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -20px; */
+    /* padding: 0; */
+  }
+
+  .rate1 {
+    width: 50%;
+    height: 25px;
+    margin: 7px 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .likebutton {
+    width: 22px;
+    margin-top: 0;
+  }
+
+  .likebutton:hover {
+    color: #fff;
   }
 }

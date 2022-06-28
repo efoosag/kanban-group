@@ -31,8 +31,8 @@ export default class Display {
         shows[i].likes <= 1 ? 'Like' : 'Likes'
       }</span>
               </div>
-              <div class="rate">
-                <i class="fa-regular fa-star likebutto"></i>
+              <div class="rate1">
+                <i class="fa-regular fa-star likebut"></i>
                 <div class="star_title"><span>Stars</span></div>
               </div>
             </div>
