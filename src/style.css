@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* margin: 10px 0; */
   height: 80px;
   background-image: url(../images/bg-img.jpeg);
   opacity: 0.8;
@@ -50,12 +49,11 @@ body {
   font-size: 18px;
   color: #000;
   font-weight: 600;
-  color: rgba(225, 170, 6, 0.9);
   transition: 1s all ease-in-out;
 }
 
 .nav-items .nav-link a:hover {
-  transform: translateY(45deg);
+  transform: translateY(45);
   transition: 1s all ease-in-out;
   border-bottom: 2px solid #f1f18a;
 }
