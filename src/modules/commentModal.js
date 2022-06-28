@@ -1,4 +1,5 @@
 /* eslint-disable comma-dangle */
+/* eslint import/no-cycle: [2, { maxDepth: 1 }] */
 import DisplayMovies from './app.js';
 
 const commentModal = async (showId, shows) => {

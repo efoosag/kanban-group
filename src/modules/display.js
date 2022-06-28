@@ -1,3 +1,6 @@
+/* eslint-disable function-paren-newline */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable import/no-cycle */
 /* eslint-disable indent */
 /* eslint-disable comma-dangle */
 import DisplayMovies from './app.js';
