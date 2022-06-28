@@ -7,7 +7,7 @@ import Show from './show.js';
 export default class DisplayMovies {
   onLineTvAPI = null;
 
-  static invovleId = 'MVuGnV1UCcQw08IPSFxh';
+  static involveId = 'MVuGnV1UCcQw08IPSFxh';
 
   static allLikes = [];
 
@@ -37,12 +37,12 @@ export default class DisplayMovies {
   }
 
   static async getAllLikes(appId) {
-    return this.onLineTvAPI.getLikes(appId);
+    return this.onLineTvAPI.getAllLikes(appId);
   }
 
   static async like(showId) {
     const currentLikes = await this.onLineTvAPI.postLike(
-      this.invovleId,
+      this.involveId,
       showId
     );
 

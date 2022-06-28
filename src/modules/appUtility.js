@@ -16,10 +16,10 @@ export default class OnLineTvAPI {
     return result;
   }
 
-  async getLikes(likeId) {
+  async getAllLikes(appId) {
     try {
       const response = await fetch(
-        `${this.involvementUrlApi2}/apps/${likeId}/likes`,
+        `${this.involvementUrlApi2}/apps/${appId}/likes`,
         {
           method: 'GET',
         }
@@ -35,9 +35,9 @@ export default class OnLineTvAPI {
     }
   }
 
-  async getUniqueLike(likeId, showId) {
+  async getLikes(appId, showId) {
     const response = await fetch(
-      `${this.involvementUrlApi2}/apps/${likeId}/likes`,
+      `${this.involvementUrlApi2}/apps/${appId}/likes`,
       {
         method: 'GET',
       }
@@ -52,8 +52,8 @@ export default class OnLineTvAPI {
     return myResult.likes;
   }
 
-  async postLike(likeId, showId) {
-    await fetch(`${this.involvementAPIBaseUrl}/apps/${likeId}/likes`, {
+  async postLike(appId, showId) {
+    await fetch(`${this.involvementUrlApi2}/apps/${appId}/likes`, {
       method: 'POST',
       body: JSON.stringify({
         item_id: showId,
@@ -63,15 +63,15 @@ export default class OnLineTvAPI {
       },
     });
 
-    const mylikes = await this.getUniqueLike(likeId, showId);
+    const mylikes = await this.getLikes(appId, showId);
 
     return mylikes;
   }
 
-  async getComments(likeId, showId) {
+  async getComments(appId, showId) {
     try {
       const commentsResponse = await fetch(
-        `${this.involvementAPIBaseUrl}/apps/${likeId}/comments?item_id=${showId}`,
+        `${this.involvementUrlApi2}/apps/${appId}/comments?item_id=${showId}`,
         {
           method: 'GET',
           headers: {
@@ -86,9 +86,9 @@ export default class OnLineTvAPI {
     }
   }
 
-  async postComments(likeId, showId, username, comment) {
+  async postComments(appId, showId, username, comment) {
     const commentsResponse = await fetch(
-      `${this.involvementAPIBaseUrl}/apps/${likeId}/comments`,
+      `${this.involvementUrlApi2}/apps/${appId}/comments`,
       {
         method: 'POST',
         body: JSON.stringify({
