@@ -61,3 +61,87 @@
     </footer>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d6cd3c7604.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kanban group</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"
+        ><img
+          src="../images/back-img-removebg.png"
+          alt="logo image"
+          class="head-img"
+      /></a>
+      <nav class="nav-menu">
+        <ul class="nav-items">
+          <li class="nav-link">
+            <a href="#">Movies(<span class="" id="home-counter">1</span>)</a>
+          </li>
+          <li class="nav-link"><a href="#">Watch Now</a></li>
+          <li class="nav-link"><a href="#">Watch Later</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+
+    <main>
+      <label class="show-count"></label>
+      <ul class="work-section"></ul>
+    </main>
+
+    <!-- comment modal box -->
+
+    <div id="comment-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="movie-info">
+          <img id="show-image" src="x" alt="show image" />
+          <h2 id="title"></h2>
+          <p id="movie-summary"></p>
+        </div>
+        <div class="comments">
+          <h3>Comments <span id="comment-counter"></span></h3>
+          <ul id="comment-list"></ul>
+        </div>
+        <div class="comment-form">
+          <form id="post-comment-form" class="my-form">
+            <input type="hidden" id="show_id" name="show_id" />
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="User name" />
+            <label>Comment:</label>
+            <textarea
+              name="comment"
+              placeholder="Your comment goes here"
+            ></textarea>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Created by Microverse student under the license of Kanban group project
+      </p>
+    </footer>
+  </body>
+</html>
