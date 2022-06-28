@@ -290,7 +290,7 @@ body {
   list-style: none;
 }
 
-#comment-list li{
+#comment-list li {
   display: flex;
   width: 100%;
   font-size: 14px;
@@ -300,7 +300,6 @@ body {
   background-color: rgba(154, 154, 154, 0.82);
   color: #fff;
 }
-
 
 .comment-form {
   width: 100%;
@@ -404,7 +403,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .work-box {
     border: 3px solid rgba(225, 170, 6, 0.9);
     width: 80%;
@@ -418,8 +417,8 @@ body {
 
   .work-box:hover {
     box-shadow:
-    0 5px 12px rgba(225, 170, 6, 0.9),
-    0 5px 12px rgba(225, 170, 6, 0.9);
+      0 5px 12px rgba(225, 170, 6, 0.9),
+      0 5px 12px rgba(225, 170, 6, 0.9);
     transition: all 2s ease-out;
     cursor: pointer;
     font-style: italic;
@@ -442,7 +441,9 @@ body {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+
     /* margin-left: -20px; */
+
     /* padding: 0; */
   }
 
