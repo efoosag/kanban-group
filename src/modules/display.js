@@ -100,7 +100,7 @@ export default class Display {
 
     commentsListEl.innerHTML = '';
     comments.forEach((comment) => {
-      commentsListEl.innerHTML += `<li>Date: ${comment.creation_date}:<p> ${comment.comment}</p> - By: ${comment.username}</li>`;
+      commentsListEl.innerHTML += `<li>${comment.creation_date}:<p> ${comment.comment}</p> - By: ${comment.username}</li>`;
     });
 
     const commentModalView = document.getElementById('comment-modal');
