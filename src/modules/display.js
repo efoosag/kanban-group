@@ -31,7 +31,7 @@ export default class Display {
         shows[i].likes <= 1 ? 'Like' : 'Likes'
       }</span>
               </div>
-              <div class="rate">
+              <div class="rate1">
                 <i class="fa-regular fa-star likebutto"></i>
                 <div class="star_title"><span>Stars</span></div>
               </div>
@@ -100,7 +100,7 @@ export default class Display {
 
     commentsListEl.innerHTML = '';
     comments.forEach((comment) => {
-      commentsListEl.innerHTML += `<li>Date: ${comment.creation_date}:<p> ${comment.comment}</p> - By: ${comment.username}</li>`;
+      commentsListEl.innerHTML += `<li>${comment.creation_date}:<p> ${comment.comment}</p> - By: ${comment.username}</li>`;
     });
 
     const commentModalView = document.getElementById('comment-modal');
