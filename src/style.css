@@ -89,6 +89,13 @@ body {
   background-color: rgba(225, 170, 6, 0.9);
 }
 
+.show-count {
+  color: rgba(225, 170, 6, 0.9);
+  margin-left: 10%;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .work-box {
   border: 3px solid rgba(225, 170, 6, 0.9);
   width: 80%;
@@ -387,6 +394,13 @@ body {
 
   .hamburger {
     display: none;
+  }
+
+  .show-count {
+    color: rgba(225, 170, 6, 0.9);
+    margin-left: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
   }
 
   .work-section {
