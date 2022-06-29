@@ -7,7 +7,9 @@
     "test": "jest",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "jest": {
     "resetMocks": false,
@@ -51,6 +53,7 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21"
   }
 }
