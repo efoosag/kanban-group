@@ -58,9 +58,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Afolabi Akorede**
 
-- GitHub: [@efoosag](https://github.com/efoosag)
-- Twitter: [@Victor Osagie](https://www.twitter.com/Victorosagie08)
-- LinkedIn: [@VictorOsagie](https://www.linkedin.com/in/victor-osagie-a713ba22b/)
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
 👤 **Victor Osagie**
 
