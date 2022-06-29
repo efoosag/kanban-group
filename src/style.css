@@ -419,12 +419,12 @@ body {
     margin-left: -50%;
     background: none;
   }
-  
+
   .nav-items .nav-link {
     list-style: none;
     margin: 0 12px;
   }
-  
+
   .nav-items .nav-link a {
     text-decoration: none;
     margin: 0 12px;
@@ -434,11 +434,11 @@ body {
     color: rgba(225, 170, 6, 0.9);
     transition: 1s all ease-in-out;
   }
-  
+
   .nav-items .nav-link a:hover {
     transition: 1s all ease-in-out;
     border-bottom: 2px solid #f1f18a;
-  }  
+  }
 
   .hamburger {
     display: none;

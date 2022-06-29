@@ -19,6 +19,6 @@ document.querySelectorAll('.link').forEach((n) => n.addEventListener('click', ()
   navMenu.classList.remove('active');
 }));
 
-var backImg= document.getElementById('head-img');
+const backImg = document.getElementById('head-img');
 backImg.src = logo;
-//document.body.appendChild(backImg);
+// document.body.appendChild(backImg);
