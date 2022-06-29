@@ -441,10 +441,6 @@ body {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-
-    /* margin-left: -20px; */
-
-    /* padding: 0; */
   }
 
   .rate1 {
@@ -463,5 +459,30 @@ body {
 
   .likebutton:hover {
     color: #fff;
+  }
+
+  .fa-star {
+    display: flex;
+    color: #000;
+  }
+
+  /* comment modal popup desktop */
+  .modal-content {
+    width: 50%;
+    margin: 12px 25% 6% 25%;
+    z-index: 1;
+  }
+
+  .close {
+    margin-right: -60px;
+    margin-bottom: 10px;
+  }
+
+  #show-image {
+    height: 300px;
+  }
+
+  .movie-summary {
+    font-size: 8px;
   }
 }

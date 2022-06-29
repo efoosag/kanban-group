@@ -32,7 +32,7 @@ export default class Display {
       }</span>
               </div>
               <div class="rate1">
-                <i class="fa-regular fa-star likebut"></i>
+                <i class="fa-regular fa-star likebutto"></i>
                 <div class="star_title"><span>Stars</span></div>
               </div>
             </div>
