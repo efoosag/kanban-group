@@ -16,6 +16,7 @@
 - Add functionality for number of likes and comments
 - Display comments
 - Add Stylings
+- Carry jest test
 
 ## Built With
 
@@ -70,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Acknowledgments
 
-I Like to Thank Microverse for creating this platform.
+We will Like to Thank Microverse for creating this platform.
 
 ## 📝 License
 
