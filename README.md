@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## For Access Online
 
-Click: https://efoosag.github.io/kanban-group/
+Click: (https://efoosag.github.io/kanban-group/)
 
 ### Prerequisites
 
