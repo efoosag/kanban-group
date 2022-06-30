@@ -53,6 +53,10 @@ To get a local copy up and running follow these simple example steps.
 
 Click: (https://efoosag.github.io/kanban-group/)
 
+## Link to project recording
+
+[Link to project recording](https://drive.google.com/file/d/1R-JJmtOtxgeAM6lNzZiJ1b75rMASXIso/view?usp=sharing)
+
 ### Prerequisites
 
     Laptop or Deskstop Computer
