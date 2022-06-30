@@ -49,6 +49,10 @@ To get a local copy up and running follow these simple example steps.
 - create a new repo on github
 - clone the repo to the local Machine
 
+## For Access Online
+
+Click: https://efoosag.github.io/kanban-group/
+
 ### Prerequisites
 
     Laptop or Deskstop Computer
